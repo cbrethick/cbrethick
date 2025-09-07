@@ -1,0 +1,78 @@
+<svg width="600" height="120" viewBox="0 0 600 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient for neon color cycling -->
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8">
+        <animate attributeName="stop-color" values="#38bdf8;#facc15;#38bdf8" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#facc15">
+        <animate attributeName="stop-color" values="#facc15;#38bdf8;#facc15" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#38bdf8">
+        <animate attributeName="stop-color" values="#38bdf8;#facc15;#38bdf8" dur="3s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <style>
+      text { 
+        font: bold 48px "Segoe UI", sans-serif; 
+        fill: url(#grad); 
+        text-shadow: 0 0 6px #fff, 0 0 20px #38bdf8, 0 0 40px #38bdf8, 0 0 80px #38bdf8;
+      }
+      tspan {
+        display: inline-block;
+        animation: wave 1.5s infinite, flicker 3s infinite, swing 2s infinite alternate;
+      }
+
+      /* Wave motion */
+      tspan:nth-child(1) { animation-delay: 0s; }
+      tspan:nth-child(2) { animation-delay: 0.1s; }
+      tspan:nth-child(3) { animation-delay: 0.2s; }
+      tspan:nth-child(4) { animation-delay: 0.3s; }
+      tspan:nth-child(5) { animation-delay: 0.4s; }
+      tspan:nth-child(6) { animation-delay: 0.5s; }
+      tspan:nth-child(7) { animation-delay: 0.6s; }
+      tspan:nth-child(8) { animation-delay: 0.7s; }
+      tspan:nth-child(9) { animation-delay: 0.8s; }
+
+      @keyframes wave {
+        0%,60%,100% { transform: translateY(0); }
+        30% { transform: translateY(-15px); }
+      }
+
+      @keyframes flicker {
+        0%,19%,21%,23%,25%,54%,56%,100% { opacity:1; }
+        20%,24%,55% { opacity:0.4; }
+      }
+
+      @keyframes swing {
+        0% { transform: translateY(0) rotate(-2deg); }
+        50% { transform: translateY(-5px) rotate(2deg); }
+        100% { transform: translateY(0) rotate(-2deg); }
+      }
+    </style>
+  </defs>
+
+  <!-- Main Text -->
+  <text x="50" y="70">
+    <tspan>R</tspan>
+    <tspan>E</tspan>
+    <tspan>T</tspan>
+    <tspan>H</tspan>
+    <tspan>I</tspan>
+    <tspan>C</tspan>
+    <tspan>K</tspan>
+    <tspan>C</tspan>
+    <tspan>B</tspan>
+  </text>
+
+  <!-- Optional sparks -->
+  <circle cx="60" cy="30" r="2" fill="#facc15">
+    <animate attributeName="cy" values="30;80;30" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="cx" values="60;120;60" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="150" cy="50" r="2" fill="#38bdf8">
+    <animate attributeName="cy" values="50;20;50" dur="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="cx" values="150;200;150" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>
