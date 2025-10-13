@@ -41,7 +41,7 @@ Hi, I’m Rethick CB, a B.Tech CSE (Data Science) student passionate about Pytho
 ## 🔗 Connect with me  
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rethick-cb-78374b357/)  
-[![Portfolio](https://img.shields.io/badge/Portfolio-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://rethickcb.netlify.app/)  
+[![Portfolio](https://img.shields.io/badge/Portfolio-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://rethickcb.com)  
 [![Blog](https://img.shields.io/badge/Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](https://rethickcb.blogspot.com/)  
 [![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://rethickcb.medium.com/)  
 
