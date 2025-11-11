@@ -1,5 +1,8 @@
 <img width="1400" height="350" alt="image" src="https://github.com/user-attachments/assets/0f62800e-9a3b-4860-81f1-991a3498e81b" />
-<img src="./rethick_data_science_badge.svg" width="700" alt="Rethick C.B — Data Science Badge" />
+<p align="center">
+  <img src="https://raw.githubusercontent.com/cbrethick/cbrethick/main/rethick_data_science_badge.svg" width="700" alt="Rethick C.B — Data Science Badge" />
+</p>
+
 
 
 ### 👨‍💻 About Me
