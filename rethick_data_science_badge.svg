@@ -1,85 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- Rethick C.B — Data Science Badge SVG (transparent background) -->
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-label="Rethick C.B Data Science Badge">
-  <defs>
-    <linearGradient id="g1" x1="0" x2="1">
-      <stop offset="0" stop-color="#00C7B7" />
-      <stop offset="1" stop-color="#0A66C2" />
-    </linearGradient>
-    <linearGradient id="g2" x1="0" x2="1">
-      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.85"/>
-      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.4"/>
-    </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.18"/>
-    </filter>
-  </defs>
-
-  <!-- background rounded card -->
-  <rect x="8" y="8" rx="14" ry="14" width="884" height="204" fill="#0f1724"/>
-  <rect x="0" y="0" rx="16" ry="16" width="884" height="204" fill="url(#g1)" opacity="0.06"/>
-
-  <!-- left emblem: stylized hexagon with network + chart -->
-  <g transform="translate(40,30)" filter="url(#shadow)">
-    <polygon points="70,0 140,35 140,105 70,140 0,105 0,35" fill="url(#g1)" stroke="#0b2540" stroke-width="2"/>
-    <!-- inner hexagon highlight -->
-    <polygon points="70,12 130,41 130,99 70,128 10,99 10,41" fill="#0f1e2b" opacity="0.9"/>
-
-    <!-- network nodes -->
-    <circle cx="48" cy="64" r="6" fill="#00C7B7" />
-    <circle cx="92" cy="36" r="6" fill="#00C7B7" />
-    <circle cx="116" cy="84" r="6" fill="#0A66C2" />
-    <circle cx="76" cy="100" r="6" fill="#0A66C2" />
-    <line x1="48" y1="64" x2="76" y2="100" stroke="#89f0e3" stroke-width="2" opacity="0.85"/>
-    <line x1="48" y1="64" x2="92" y2="36" stroke="#89f0e3" stroke-width="2" opacity="0.85"/>
-    <line x1="92" y1="36" x2="116" y2="84" stroke="#6ea6f5" stroke-width="2" opacity="0.85"/>
-
-    <!-- small bar-chart / signal -->
-    <g transform="translate(28,48)">
-      <rect x="0" y="28" width="8" height="20" rx="1" fill="#FFFFFF" opacity="0.12" />
-      <rect x="12" y="18" width="8" height="30" rx="1" fill="#FFFFFF" opacity="0.16" />
-      <rect x="24" y="6" width="8" height="42" rx="1" fill="#FFFFFF" opacity="0.22" />
-    </g>
-
+<svg width="700" height="200" viewBox="0 0 700 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="700" height="200" rx="20" fill="#0A192F"/>
+  <g>
+    <text x="40" y="80" font-size="34" font-weight="700" fill="#64FFDA">Hi, I'm Rethick C.B</text>
+    <text x="40" y="120" font-size="22" fill="#CCD6F6">B.Tech CSE (Data Science)</text>
+    <text x="40" y="150" font-size="18" fill="#8892B0">Aspiring Data Scientist | AI & ML Enthusiast</text>
   </g>
-
-  <!-- main text -->
-  <g transform="translate(230,44)">
-    <text x="0" y="2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" fill="#9fbcd6">Hi, I'm</text>
-    <text x="0" y="44" font-family="Inter, Arial, Helvetica, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Rethick C.B</text>
-    <text x="0" y="86" ...>Aspiring Data Scientist • AI &amp; Machine Learning</text>
-
-    <!-- horizontal rule -->
-    <rect x="0" y="96" width="520" height="1" fill="#2b465f" opacity="0.6" />
-
-    <!-- three skill chips -->
-    <g transform="translate(0,116)">
-      <rect x="0" y="0" rx="8" ry="8" width="170" height="36" fill="#071428" stroke="url(#g1)" stroke-width="1"/>
-      <text x="20" y="24" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" fill="#d6f7f0">Python • Data Analysis</text>
-
-      <rect x="190" y="0" rx="8" ry="8" width="200" height="36" fill="#071428" stroke="url(#g1)" stroke-width="1"/>
-      <text x="210" y="24" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" fill="#d6f7f0">Machine Learning • Model Deployment</text>
-
-      <rect x="410" y="0" rx="8" ry="8" width="160" height="36" fill="#071428" stroke="url(#g1)" stroke-width="1"/>
-      <text x="430" y="24" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" fill="#d6f7f0">Visualization • SQL</text>
-    </g>
+  <g transform="translate(540,50)">
+    <circle cx="50" cy="50" r="45" fill="#112240" stroke="#64FFDA" stroke-width="3"/>
+    <path d="M65 50C65 58.2843 58.2843 65 50 65C41.7157 65 35 58.2843 35 50C35 41.7157 41.7157 35 50 35C58.2843 35 65 41.7157 65 50ZM78 75C78 66.1634 65 61 50 61C35 61 22 66.1634 22 75V80H78V75Z" fill="#64FFDA"/>
   </g>
-
-  <!-- rightmost small icons: medium + github small badges -->
-  <g transform="translate(680,130)">
-    <rect x="0" y="0" rx="8" ry="8" width="200" height="64" fill="#061428" opacity="0.9" stroke="#12334a"/>
-    <g transform="translate(12,12)">
-      <circle cx="18" cy="20" r="16" fill="#000000" />
-      <text x="45" y="24" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" fill="#9fbcd6">/rethickcb</text>
-      <text x="45" y="42" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" fill="#6d98b8">GitHub · Medium · Portfolio</text>
-    </g>
-  </g>
-
-  <!-- subtle data-grid background lines -->
-  <g opacity="0.06" fill="none" stroke="#ffffff">
-    <path d="M250 30 H840" />
-    <path d="M250 60 H840" />
-    <path d="M250 90 H840" />
-  </g>
-
+  <text x="500" y="180" font-size="14" fill="#64FFDA">#DataScience #AI #MachineLearning</text>
 </svg>
