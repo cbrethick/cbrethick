@@ -1,5 +1,7 @@
 <img width="1400" height="350" alt="image" src="https://github.com/user-attachments/assets/0f62800e-9a3b-4860-81f1-991a3498e81b" />
-
+<p align="center">
+  <img src="./rethick_data_science_badge.svg" width="700" alt="Rethick C.B — Data Science Badge" />
+</p>
 
 
 ### 👨‍💻 About Me
@@ -46,5 +48,8 @@ Hi, I’m Rethick CB, a B.Tech CSE (Data Science) student passionate about Pytho
 [![Blog](https://img.shields.io/badge/Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](https://rethickcb.blogspot.com/)  
 [![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://rethickcb.medium.com/)  
 
+
+
   
 ![RETHICK CB](./rethick_animated.svg)
+
