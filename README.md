@@ -1,6 +1,4 @@
-<img width="1584" height="396" alt="Brown   Black Geometric Personal Branding LinkedIn Banner" src="<img width="1400" height="350" alt="image" src="https://github.com/user-attachments/assets/0f62800e-9a3b-4860-81f1-991a3498e81b" />
-
-" />
+<img width="1400" height="350" alt="image" src="https://github.com/user-attachments/assets/0f62800e-9a3b-4860-81f1-991a3498e81b" />
 
 
 
